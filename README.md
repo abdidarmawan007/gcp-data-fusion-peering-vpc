@@ -1,7 +1,7 @@
 # GCP Data Fusion Private IP with Peering VPC
 - Make Data Fusion can access proxysql in private network/ip, you no need make proxysql / haproxy with public network/ip
 - VPC Peering  = vpc-datafusion <--peered--> vpc-production
-- Topology COnnection = data fusion --> vm proxysql/haproxy ---> cloudsql
+- Topology Connection = data fusion --> vm proxysql/haproxy ---> cloudsql
 - Data Fusion until now can't access direct to private ip CloudSQL so you need create proxysql or haproxy in private network
 
 
