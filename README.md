@@ -4,4 +4,15 @@
 ![alt text](https://i.imgur.com/zXArtrw.png)
 
 ### Create VPC Peering from network Data Fusion to our production VPC
+#### For Project ID and VPC network name. you can get in Data Fusion Dashbaord in Instance Service Account
+```
+Service Account = cloud-datafusion-management-sa@v15658555zxbe45p-tp.iam.gserviceaccount.com
+Instance ID = production-data-fusion
+Region = asia-southeast1
+```
+![alt text](https://i.imgur.com/96tzzVr.png)
 
+#### Try Connect Data Fusion to private vm proxysql
+![alt text](https://i.imgur.com/zTmXtrE.png)
+![alt text](https://i.imgur.com/tCqHyCK.png)
+![alt text](https://i.imgur.com/rkQQfLd.png)
