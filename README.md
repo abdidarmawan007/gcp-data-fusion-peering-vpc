@@ -22,3 +22,12 @@ Region = asia-southeast1
 ![alt text](https://i.imgur.com/zTmXtrE.png)
 ![alt text](https://i.imgur.com/tCqHyCK.png)
 ![alt text](https://i.imgur.com/rkQQfLd.png)
+
+
+
+# Another important config iam user for data fusion in our project
+- copy service account in instance data fusion example Service Account = cloud-datafusion-management-sa@v15658555zxbe45p-tp.iam.gserviceaccount.com
+- create new iam user in our project with Role = Cloud Data Fusion API Service Agent
+![alt text](https://i.imgur.com/Z6M2lqY.png)
+
+
