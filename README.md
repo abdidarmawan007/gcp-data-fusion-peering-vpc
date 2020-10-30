@@ -28,7 +28,10 @@ Region = asia-southeast1
 ## Another important config iam user for data fusion
 ## Create iam user for make data fusion instance have access to dataproc,bigquery etc in our project
 - copy service account in instance data fusion example Service Account = cloud-datafusion-management-sa@v15658555zxbe45p-tp.iam.gserviceaccount.com
-- create new iam user in our project with Role = Cloud Data Fusion API Service Agent
+- create new iam user in our project with Role = 
+**Cloud Data Fusion API Service Agent**
+**Service Account User**
+
 ![alt text](https://i.imgur.com/Z6M2lqY.png)
 
 
