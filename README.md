@@ -5,11 +5,11 @@
 - Data Fusion until now can't access direct to private ip CloudSQL so you need create proxysql or haproxy in private network
 
 
-### Create Data Fusion Instance with Private IP and use our VPC Production
+## Create Data Fusion Instance with Private IP and use our VPC Production
 
 ![alt text](https://i.imgur.com/zXArtrw.png)
 
-### Create VPC Peering from network Data Fusion to our production VPC
+## Create VPC Peering from network Data Fusion to our production VPC
 #### For Project ID and VPC network name. you can get in Data Fusion Dashbaord in Instance Service Account
 ```
 Service Account = cloud-datafusion-management-sa@v15658555zxbe45p-tp.iam.gserviceaccount.com
@@ -25,8 +25,8 @@ Region = asia-southeast1
 
 
 
-## Another important config iam user for data fusion
-## Create iam user for make data fusion instance have access to dataproc,bigquery etc in our project
+## Config iam user for data fusion
+#### Create iam user for make data fusion instance have access to dataproc,bigquery etc in our project
 - copy service account in instance data fusion example Service Account = cloud-datafusion-management-sa@v15658555zxbe45p-tp.iam.gserviceaccount.com
 - create new iam user in our project with Role = 
 ```
